@@ -1,0 +1,19 @@
+{
+  "name": "socket-chat-app",
+  "version": "1.0.0",
+  "description": "socket.io chat app",
+  "main": "app.js",
+  "scripts": {
+    "start" : "node src/app.js",
+    "dev" : "nodemon src/app.js"
+  },
+  "author": "Mahek Mehta",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "socket.io": "^4.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
